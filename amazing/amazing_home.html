@@ -4,7 +4,11 @@
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      
+	  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+	  
+	  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
       <link type="text/css" rel="stylesheet" href="css/amazing_style.css"  media="screen,projection"/>
 
       <!--Let browser know website is optimized for mobile-->
@@ -486,13 +490,65 @@
 		
 </div>	
 </div>
+<!-- =========================================================================================================== -->
+	<div class="container">
+
+	<div class="center slider">
+    <div>
+      <img src="images/g2.jpg">
+    </div>
+    <div>
+      <img src="images/p2.jpg">
+    </div>
+    <div>
+      <img src="images/g5.jpg">
+    </div>
+    <div>
+      <img src="images/g3.jpg">
+    </div>
+   </div>
+   </div>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      
+      $('.center').slick({
+  centerMode: true,
+  centerPadding: '0px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+				
+    });
+</script>
+
 <!============================================FOOTER==================================================>
 
-
+	
 			<footer class="page-footer blue darken-3">
           <!div class="container">
             <div class="row">
-              <div class="col l4 s12 meru" style="border-right:1px solid white;">
+              <div class="col l4 s12 meru">
                 <h5 class="white-text center-align">CONTACT US</h5>
 				<p class="grey-text text-lighten-4 center-align"></br></p>
 				<p class="grey-text text-lighten-4 center-align"></br></p>
@@ -518,7 +574,7 @@
               </div>
 			  
 			  
-			  <div class="col l4  s12 peru" style="border-left:1px solid white;">
+			  <div class="col l4  s12 peru">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58773.28494567108!2d88.40867594387188!3d22.97487815404057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f895237d8c2c43%3A0xa617faf57fbd04d1!2sKalyani%2C+West+Bengal!5e0!3m2!1sen!2sin!4v1531469531963" width="600" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>		
 
               </div>
