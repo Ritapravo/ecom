@@ -10,8 +10,8 @@ html{
 }
 
 body{
-	//background-color:#e0f2f1 ;
-	//background-image:url(images/bg.jpg)
+	background-color:#e0f2f1 ;
+	background-image:url(images/bg.jpg)
 }
 
 .container{
@@ -61,6 +61,13 @@ iframe{
 
 .brand-logo{margin-left:20px;}
 
+.peru{
+	border-left:1px solid white;
+}
+.meru{
+	border-right:1px solid white;
+}
+
 @media screen and (max-width:600px){
 	
 	.peru{border-left:0px;border-top:1px solid white;}
@@ -74,9 +81,9 @@ iframe{
 		margin-top:5%;
 	}
 	.container{
-	width:100%;
-	margin-left:0%;
-	margin-right:0%;
+		width:100%;
+		margin-left:0%;
+		margin-right:0%;
 }
 	.parallax-container {
       height: 250px;
@@ -91,10 +98,10 @@ iframe{
 	.brand-logo{margin-left:0px;}
 	
 	.container{
-	width:100%;
-	margin-left:0%;
-	margin-right:0%;
-}
+		width:100%;
+		margin-left:0%;
+		margin-right:0%;
+	}
 	
 }
 
@@ -177,5 +184,8 @@ iframe{
 				<a class="carousel-item" href="#four!"><img src="images/a4.jpg"></a>
 				<a class="carousel-item" href="#five!"><img src="images/a5.jpg"></a>
 			</div>
+
+ style="border-right:1px solid white;"
+ style="border-left:1px solid white;"
 
 */
