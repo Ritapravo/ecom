@@ -6,18 +6,18 @@ html{
 *{
 	margin: 0;
 	padding: 0;
-	//background-color:#e0f2f1 ;
+	/* background-color:#e0f2f1 ; */
 }
 
 body{
-	background-color:#e0f2f1 ;
+	background-color:#ffffff ;
 	background-image:url(images/bg.jpg)
 }
 
 .container{
-	width:90%;
-	margin-left:05%;
-	margin-right:05%;
+	width:100%;
+	/* margin-left:03%;
+	margin-right:03%; */
 }
 
 blockquote{
